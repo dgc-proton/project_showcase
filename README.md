@@ -24,17 +24,17 @@ I designed a PCB (and started developing firmware before the project was paused)
   <img src="aerospaceSoc_arm/RobotArmPCB_3D-B_v0.2_DRAFT.png" width="49%" />
 </p>
 
-## Student Records System Group Project (C++)
+## Student Records System Group Project
 
-Tags: *C++ (inc. templates, polymorphism), Git*
+Tags: *C++, Git*
 
-Wrote a student records system in C++ working in a group with two other students. My key contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h). I also played a key role in architecture such as use of the attorney-client idiom to control access to implementation details of classes, making use of class templates and polymorphism, and using Clang sanitisers to analyse the program for issues.
+Wrote a student records system in C++ working in a group with two other students. My main contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h). I also played a key role in use of the attorney-client idiom, class templates, polymorphism, and used Clang sanitisers to analyse the program, sucessfully identifying and remediating several issues.
 
 ## Machine Learning for Earthquake Detection
 
 Tags: *Python, Machine Learning, big data, Git*
 
-I worked with a geophysics researcher on [PICTS](https://amygilligan.wordpress.com/research/picts/). This included recovery of seismometers and processing of their data. I wrote a [Python package](https://github.com/dgc-proton/PICTS_ML) which makes re-training machine learning models for earthquake detection in Scotland (or other areas with limited specific data available for them) more efficient. I also worked with another student and the researcher to produce a [poster](https://github.com/dgc-proton/PICTS_ML/blob/23283c13866cba830c897255cf755134cbcb0d57/PGRiP_Poster_PICTS.pdf) summarising the research, which I presented at the British Geophysics Association Postgraduate Research in Progress conference. 
+While working with a geophysics researcher on [PICTS](https://amygilligan.wordpress.com/research/picts/) I wrote a [Python package](https://github.com/dgc-proton/PICTS_ML) which makes re-training machine learning models for earthquake detection in Scotland (or other areas with limited specific data available for them) more efficient. A poster summarising our research result can be found [here](https://github.com/dgc-proton/PICTS_ML/blob/23283c13866cba830c897255cf755134cbcb0d57/PGRiP_Poster_PICTS.pdf). 
 
 ## Some Other Projects
 
@@ -42,9 +42,9 @@ Some of my other recent projects have included:
 
 ### University Robotics League Competitions
 
-Tags: *C++, C, Git, Arduino, ESP32, robotics, sensors*
+Tags: *C++, C, Git, Arduino, ESP32, robotics, IMU, MPU-6050*
 
-Competition: In teams of two people, construct self-balancing robots from cheap kits intended to build a basic car robot, plus an IMU and 3D printed parts. Robots must self-balance autonomously with all processing done on the onboard MCU, but can be sent steering commands by IR remote. They competed in various events: balancing for time, hill climbing (with and without added weight), and a code quality review.
+Competition: In teams of two people, construct self-balancing robots from cheap robot car kits plus an IMU (MPU-6050) and 3D printed parts. Robots must self-balance autonomously with all processing done on the onboard MCU, steering commands via IR remote. Competition events were balancing for time, hill climbing (with and without added weight), and a code quality review.
 
 Result: 2nd place.
 
@@ -53,7 +53,7 @@ Robot:
 ![self balancing robot gif](self_balancing_PID_small.gif)
 
 
-Competition: In teams of three people, construct small (under a specified size and weight) fully autonomous sumo wrestling robots with all processing done on the onboard MCU. The robots compete against each other in a sumo wrestling tournament.
+Competition: In teams of three people, construct small (under a specified size and weight) fully autonomous sumo wrestling robots with all processing done on the onboard MCU. The robots competed against each other in a sumo wrestling tournament.
 
 Result: 2nd place.
 
