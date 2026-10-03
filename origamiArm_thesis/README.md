@@ -4,6 +4,8 @@ For my Master's thesis I designed and built the control system for potentially n
 
 ![Picture of the arm.](equip_architecture_overview.png)
 
+![Picture of the arm tracking a code](tracking_QR.gif)
+
 The system was able to autonomously track multiple objects and move the arm to accomplish simple tasks in real time while running in a resource constrained environment.
 
 ![Pickture of a detection.](yolo_detection.png)
