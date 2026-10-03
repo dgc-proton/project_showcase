@@ -24,23 +24,7 @@ I designed a PCB (and started developing firmware before the project was paused)
   <img src="aerospaceSoc_arm/RobotArmPCB_3D-B_v0.2_DRAFT.png" width="49%" />
 </p>
 
-## Student Records System Group Project
-
-Tags: *C++, Git*
-
-Wrote a student records system in C++ working in a group with two other students. My main contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h). I also played a key role in use of the attorney-client idiom, class templates, polymorphism, and used Clang sanitisers to analyse the program, sucessfully identifying and remediating several issues.
-
-## Machine Learning for Earthquake Detection
-
-Tags: *Python, Machine Learning, big data, Git*
-
-While working with a geophysics researcher on [PICTS](https://amygilligan.wordpress.com/research/picts/) I wrote a [Python package](https://github.com/dgc-proton/PICTS_ML) which makes re-training machine learning models for earthquake detection in Scotland (or other areas with limited specific data available for them) more efficient. A poster summarising our research result can be found [here](https://github.com/dgc-proton/PICTS_ML/blob/23283c13866cba830c897255cf755134cbcb0d57/PGRiP_Poster_PICTS.pdf). 
-
-## Some Other Projects
-
-Some of my other recent projects have included:
-
-### University Robotics League Competitions
+## University Robotics League Competitions
 
 Tags: *C++, C, Git, Arduino, ESP32, robotics, IMU, MPU-6050*
 
@@ -61,21 +45,41 @@ Robot (the shorter white one):
 
 ![sumo robots wrestling gif](sumo.gif)
 
-### Electronics Design - DC Motor Control
+## Electronics Design Course - DC Motor Control
 
-Tags: *C++, motors, PID control*
+Tags: *C++, motors, PID control, electronics*
 
 Designed a controller for a DC motor with a Hall effect encoder, using an object-oriented approach in C++. Inputs for forward/reverse and on/off were taken from push buttons (with software debouncing), and speed was taken from a potentiometer. Interrupts were used to monitor the hall effect sensor and calculate speed. Different control strategies were used including PID tuned 'by eye' and using the Ziegler-Nichols Method. A strategy to control the position of the shaft (rather than its speed) was also developed. [Link to code.](DC_motor_control).
 
-### Communications Engineering
+## Student Records System Group Project
+
+Tags: *C++, Git*
+
+Wrote a student records system in C++ working in a group with two other students. My main contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h). I also played a key role in use of the attorney-client idiom, class templates, polymorphism, and used Clang sanitisers to analyse the program, sucessfully identifying and remediating several issues.
+
+## Digital Design Course - Temperature Alarm
+
+Tags: *C, AVR with no HAL, PCB design & assembly, electronics, Git*
+
+The digital design course included several projects, one of which was designing and building a PCB that was a temperature alarm with an audible and visual warning if a given temperature was exceeded, and a reset button. Mine used an ATTiny85 programmed using C and AVR header files. [Further details.](temperature_alarm/)
+
+![Picture of the temperature alarm PCB.](temperature_alarm/pcb_photo.png)
+
+## Communications Engineering Course
 
 Tags: *communications protocols, oscilloscope use*
  
 Carried out a series of assessed practical lab activities constructing control busses and analysing messages sent across them using an oscilloscope. Wrote a technical note for each covering the line driver chips used, message decoding, and checking measurements of the waveform against the formal specification for the communication standard. Protocols covered in this manor included EIA-232, EIA-485 and DMX (inc RDM), with other assessments carried out that covered CAN, USART use, GPS NMEA, various integrity checks and checksums. The course, combined with a digital systems course, also look at other standards including i2c and SPI.  
 
-### Signals & Systems
+## Signals & Systems Course - Digital Filter Design
 
-Tags: *DSP, Python, filter design*
+Tags: *DSP, Python, filter design, Git*
 
 Digitally remastering a noisy audio clip using Python. The final version used a combination of a custom designed IIR notch filter and a Fast Fourier Transform method to improve the Signal to Noise Ratio from 11.66 DB to 30.68 dB, and then simulated playing it over a set of high-end speakers with a custom-designed crossover.
+
+## Machine Learning for Earthquake Detection
+
+Tags: *Python, Machine Learning, big data, Git*
+
+While working with a geophysics researcher on [PICTS](https://amygilligan.wordpress.com/research/picts/) I wrote a [Python package](https://github.com/dgc-proton/PICTS_ML) which makes re-training machine learning models for earthquake detection in Scotland (or other areas with limited specific data available for them) more efficient. A poster summarising our research result can be found [here](https://github.com/dgc-proton/PICTS_ML/blob/23283c13866cba830c897255cf755134cbcb0d57/PGRiP_Poster_PICTS.pdf). 
 
