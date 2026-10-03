@@ -49,7 +49,7 @@ Robot (the shorter white one):
 
 Tags: *C++, motors, PID control, electronics*
 
-Designed a controller for a DC motor with a Hall effect encoder, using an object-oriented approach in C++. Inputs for forward/reverse and on/off were taken from push buttons (with software debouncing), and speed was taken from a potentiometer. Interrupts were used to monitor the hall effect sensor and calculate speed. Different control strategies were used including PID tuned 'by eye' and using the Ziegler-Nichols Method. A strategy to control the position of the shaft (rather than its speed) was also developed. [Link to code.](DC_motor_control).
+Designed a controller for a DC motor with a Hall effect encoder, using an object-oriented approach in C++. Inputs for forward/reverse and on/off were taken from push buttons (with software debouncing), and speed was taken from a potentiometer. Interrupts were used to monitor the hall effect sensor and calculate speed. Different control methods were used, including PID tuned using the Ziegler-Nichols Method. A strategy to control the position of the shaft (rather than its speed) was also developed. [Link to code.](DC_motor_control)
 
 ## Student Records System Group Project
 
@@ -61,7 +61,7 @@ Wrote a student records system in C++ working in a group with two other students
 
 Tags: *C, AVR with no HAL, PCB design & assembly, electronics, Git*
 
-The digital design course included several projects, one of which was designing and building a PCB that was a temperature alarm with an audible and visual warning if a given temperature was exceeded, and a reset button. Mine used an ATTiny85 programmed using C and AVR header files. [Further details.](temperature_alarm/)
+The digital design course included several projects, one of which was designing and building a PCB that was a temperature alarm with an audible and visual warning if a given temperature was exceeded, and a reset button. Mine used an ATTiny85 programmed using C, writing directly to registers using the data sheet and AVR header files. [Further details.](temperature_alarm/)
 
 ![Picture of the temperature alarm PCB.](temperature_alarm/pcb_photo.png)
 
@@ -69,13 +69,25 @@ The digital design course included several projects, one of which was designing 
 
 Tags: *communications protocols, oscilloscope use*
  
-Carried out a series of assessed practical lab activities constructing control busses and analysing messages sent across them using an oscilloscope. Wrote a technical note for each covering the line driver chips used, message decoding, and checking measurements of the waveform against the formal specification for the communication standard. Protocols covered in this manor included EIA-232, EIA-485 and DMX (inc RDM), with other assessments carried out that covered CAN, USART use, GPS NMEA, various integrity checks and checksums. The course, combined with a digital systems course, also look at other standards including i2c and SPI.  
+Carried out a series of assessed practical lab activities constructing control busses and analysing messages sent across them using an oscilloscope. Wrote a technical note for each covering the line driver chips used, message decoding, and checking measurements of the waveform against the formal specification for the communication standard. Protocols covered in this manor included:
+
+- EIA-232
+- EIA-485
+- DMX (inc RDM)
+
+Other assessments, plus work combined with the digital systems course, covered:
+
+- CAN
+- i2c
+- SPI  
+- USART use
+- Various integrity checks and checksums
 
 ## Signals & Systems Course - Digital Filter Design
 
 Tags: *DSP, Python, filter design, Git*
 
-Digitally remastering a noisy audio clip using Python. The final version used a combination of a custom designed IIR notch filter and a Fast Fourier Transform method to improve the Signal to Noise Ratio from 11.66 DB to 30.68 dB, and then simulated playing it over a set of high-end speakers with a custom-designed crossover.
+Digitally remastering a noisy audio clip using Python. The final version used a combination of a custom designed IIR notch filter and a Fast Fourier Transform method to improve the Signal to Noise Ratio from 11.66 dB to 30.68 dB, and then simulated playing it over a set of high-end speakers with a custom-designed crossover.
 
 ## Machine Learning for Earthquake Detection
 
