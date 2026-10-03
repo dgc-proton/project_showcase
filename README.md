@@ -6,7 +6,7 @@ Details from a selection of projects I've worked on recently. I'm not able to pu
 
 Tags: *C, C++, Python, electronics, motors, embedded Linux, Machine Learning, YOLO Convolutional Neural Networks, multithreading, computer vision, Nvidia Jetson, Arduino HAL, Pi Pico C SDK, CMake, Git*
 
-I designed and built an autonomous control system for an unusual type of robotic arm [further details](origamiArm_thesis).
+I designed and built an [autonomous control system](origamiArm_thesis) for an unusual type of robotic arm.
 
 <p float="centre">
   <img src="origamiArm_thesis/equipment_overview.png" width="49%" />
@@ -17,7 +17,7 @@ I designed and built an autonomous control system for an unusual type of robotic
 
 Tags: *PCB design, electronics, motors, KiCAD, AVR toolchain & header files (ATTiny1616), Pi Pico C SDK, CMake, Git*
 
-I designed a PCB (and started developing firmware before the project was paused) for controlling a more standard type of robotic arm [further details](/aerospaceSoc_arm).
+I designed [the electronic design and PCB](/aerospaceSoc_arm) (and started developing firmware before the project was paused) for controlling a more common type of robotic arm.
 
 <p float="centre">
   <img src="aerospaceSoc_arm/RobotArm_3D.png" width="49%" />
@@ -28,7 +28,13 @@ I designed a PCB (and started developing firmware before the project was paused)
 
 Tags: *C++, C, Git, Arduino, ESP32, robotics, IMU, MPU-6050*
 
-Competition: In teams of two people, construct self-balancing robots from cheap robot car kits plus an IMU (MPU-6050) and 3D printed parts. Robots must self-balance autonomously with all processing done on the onboard MCU, steering commands via IR remote. Competition events were balancing for time, hill climbing (with and without added weight), and a code quality review.
+Competition:
+
+- Teams of 2 people.
+- Develop a self-balancing robot using cheap robot car kits plus an IMU (MPU-6050) and 3D printed parts.
+- Robots must self-balance autonomously with all processing done on the onboard MCU
+- Steering commands via IR remote.
+- Events were balancing for time, hill climbing (with and without added weight), and a code quality review.
 
 Result: 2nd place.
 
@@ -37,7 +43,12 @@ Robot:
 ![self balancing robot gif](self_balancing_PID_small.gif)
 
 
-Competition: In teams of three people, construct small (under a specified size and weight) fully autonomous sumo wrestling robots with all processing done on the onboard MCU. The robots competed against each other in a sumo wrestling tournament.
+Competition:
+
+- Teams of 3 people.
+- Develop a small (under a specified size and weight) fully autonomous sumo wrestling robot.
+- All processing done on the onboard MCU.
+- The robots competed against each other in a sumo wrestling tournament.
 
 Result: 2nd place.
 
@@ -49,19 +60,21 @@ Robot (the shorter white one):
 
 Tags: *C++, motors, PID control, electronics*
 
-Designed a controller for a DC motor with a Hall effect encoder, using an object-oriented approach in C++. Inputs for forward/reverse and on/off were taken from push buttons (with software debouncing), and speed was taken from a potentiometer. Interrupts were used to monitor the hall effect sensor and calculate speed. Different control methods were used, including PID tuned using the Ziegler-Nichols Method. A strategy to control the position of the shaft (rather than its speed) was also developed. [Link to code.](DC_motor_control)
+Designed a [controller for a DC motor](DC_motor_control) with a Hall effect encoder, using an object-oriented approach in C++.
 
 ## Student Records System Group Project
 
 Tags: *C++, Git*
 
-Wrote a student records system in C++ working in a group with two other students. My main contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h). I also played a key role in use of the attorney-client idiom, class templates, polymorphism, and used Clang sanitisers to analyse the program, sucessfully identifying and remediating several issues.
+Wrote a student records system in C++ working in a group with two other students. My main contributions included [RecordArray.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordArray.h) and [RecordLinkedList.h](https://github.com/dgc-proton/student_records/blob/f9036c25a1f91dfeeb8e31d3ee705a33cd7d0d76/RecordLinkedList.h).
+
+I also played a key role in use of the attorney-client idiom, class templates, polymorphism, and used Clang sanitisers to analyse the program, successfully identifying and remediating several issues.
 
 ## Digital Design Course - Temperature Alarm
 
 Tags: *C, AVR with no HAL, PCB design & assembly, electronics, Git*
 
-The digital design course included several projects, one of which was designing and building a PCB that was a temperature alarm with an audible and visual warning if a given temperature was exceeded, and a reset button. Mine used an ATTiny85 programmed using C, writing directly to registers using the data sheet and AVR header files. [Further details.](temperature_alarm/)
+[Designing and build of a temperature alarm PCB.](temperature_alarm) Mine used an ATTiny85 [programmed using C, writing directly to registers using the datasheet and AVR header files.](/temperature_alarm/main.c)
 
 ![Picture of the temperature alarm PCB.](temperature_alarm/pcb_photo.png)
 
