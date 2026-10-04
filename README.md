@@ -17,7 +17,7 @@ I designed and built an [autonomous control system](origamiArm_thesis) for an un
 
 Tags: *PCB design, electronics, motors, KiCAD, AVR toolchain & header files (ATTiny1616), Pi Pico C SDK, CMake, Git*
 
-I designed [the electronic design and PCB](/aerospaceSoc_arm) (and started developing firmware before the project was paused) for controlling a more common type of robotic arm.
+I did [the electronic and PCB design](/aerospaceSoc_arm) (and started firmware development, until the project was paused) for controlling a more common type of robotic arm.
 
 <p float="centre">
   <img src="aerospaceSoc_arm/RobotArm_3D.png" width="49%" />
@@ -32,7 +32,7 @@ Competition:
 
 - Teams of 2 people.
 - Develop a self-balancing robot using cheap robot car kits plus an IMU (MPU-6050) and 3D printed parts.
-- Robots must self-balance autonomously with all processing done on the onboard MCU
+- Robots must self-balance autonomously with all processing done on the onboard MCU.
 - Steering commands via IR remote.
 - Events were balancing for time, hill climbing (with and without added weight), and a code quality review.
 
@@ -74,7 +74,7 @@ I also played a key role in use of the attorney-client idiom, class templates, p
 
 Tags: *C, AVR with no HAL, PCB design & assembly, electronics, Git*
 
-[Designing and build of a temperature alarm PCB.](temperature_alarm) Mine used an ATTiny85 [programmed using C, writing directly to registers using the datasheet and AVR header files.](/temperature_alarm/main.c)
+[Designed and built a temperature alarm PCB.](temperature_alarm) Mine used an ATTiny85 [programmed in C,](/temperature_alarm/main.c) writing directly to registers using the datasheet and AVR header files rather than a HAL.
 
 ![Picture of the temperature alarm PCB.](temperature_alarm/pcb_photo.png)
 
@@ -82,7 +82,7 @@ Tags: *C, AVR with no HAL, PCB design & assembly, electronics, Git*
 
 Tags: *communications protocols, oscilloscope use*
  
-Carried out a series of assessed practical lab activities constructing control busses and analysing messages sent across them using an oscilloscope. Wrote a technical note for each covering the line driver chips used, message decoding, and checking measurements of the waveform against the formal specification for the communication standard. Protocols covered in this manor included:
+Carried out a series of assessed practical lab activities constructing control busses and analysing messages sent across them using an oscilloscope. Wrote a technical note for each covering the line driver chip, message decoding, and checking compliance against relevant standards. Protocols included:
 
 - EIA-232
 - EIA-485
@@ -100,7 +100,7 @@ Other assessments, plus work combined with the digital systems course, covered:
 
 Tags: *DSP, Python, filter design, Git*
 
-Digitally remastering a noisy audio clip using Python. The final version used a combination of a custom designed IIR notch filter and a Fast Fourier Transform method to improve the Signal to Noise Ratio from 11.66 dB to 30.68 dB, and then simulated playing it over a set of high-end speakers with a custom-designed crossover.
+Digitally remastering a noisy audio clip using Python. The final version used a combination of a custom designed IIR notch filter and a Fast Fourier Transform method to improve the Signal to Noise Ratio from 11.66 dB to 30.68 dB, and simulated playing it over a set of high-end speakers with a custom-designed crossover.
 
 ## Machine Learning for Earthquake Detection
 
